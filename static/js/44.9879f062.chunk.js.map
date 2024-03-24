@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/44.9879f062.chunk.js","mappings":"mJAEA,MAIA,EAJiBA,KACRC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,a","sources":["pages/NotFound.jsx"],"sourcesContent":["import React from \"react\";\n\nconst NotFound = () => {\n  return <div>Not Found</div>;\n};\n\nexport default NotFound;\n"],"names":["NotFound","_jsx","children"],"sourceRoot":""}
