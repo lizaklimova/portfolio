@@ -3,10 +3,10 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
 :root {
     --accent-color: #9952F4;
-    --text-color: #271F19;
-    /* --text-color: #ffffff; */
-    --background-color: #eae7e7;
-    /* --background-color: #000000; */
+    /* --text-color: #271F19; */
+    --text-color: #ffffff;
+    /* --background-color: #eae7e7; */
+    --background-color: #000000;
     --backdrop-color: rgba(0, 0, 0, 0.5);
     --eased-transition: 150ms ease-in-out;
     --cubic-transition: 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);

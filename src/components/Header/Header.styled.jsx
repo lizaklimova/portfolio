@@ -5,9 +5,11 @@ export const HeaderSection = styled.header`
   position: sticky;
   width: 100vw;
   height: 70px;
+  z-index: 5;
   display: flex;
   align-items: center;
   background-color: var(--background-color);
+  border-bottom: 1px solid #fff;
 
   @media screen and (min-width: 768px) {
     font-size: 18px;

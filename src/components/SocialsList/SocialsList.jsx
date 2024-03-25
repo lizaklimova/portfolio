@@ -4,7 +4,7 @@ import { ContactLink, ContactsList } from "./SocialsList.styled";
 
 const SocialsList = ({ variant }) => {
   return (
-    <ContactsList>
+    <ContactsList $variant={variant}>
       <li>
         <ContactLink
           $variant={variant}

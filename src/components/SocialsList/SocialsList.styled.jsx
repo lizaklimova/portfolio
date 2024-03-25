@@ -1,12 +1,14 @@
 import styled from "styled-components";
+import { slideInFromRight } from "assets/styles/CommonStyles";
 
 export const ContactsList = styled.ul`
-  display: none;
+  display: ${({ $variant }) => ($variant === "header" ? "none" : "flex")};
+  align-items: center;
+  gap: 15px;
+  animation: ${slideInFromRight} 2s ease-in-out;
 
   @media screen and (min-width: 768px) {
     display: flex;
-    align-items: center;
-    gap: 15px;
   }
 `;
 
