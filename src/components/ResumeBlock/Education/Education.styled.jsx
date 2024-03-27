@@ -21,6 +21,7 @@ export const Institution = styled.h3`
 export const Period = styled.p`
   font-size: 10px;
   line-height: 1.7;
+  font-style: italic;
 `;
 
 export const Degree = styled.p`

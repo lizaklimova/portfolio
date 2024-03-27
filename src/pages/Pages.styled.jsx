@@ -41,12 +41,12 @@ export const DecorWrap = styled.div`
 
 export const AboutDecor = styled.div`
   position: absolute;
-  top: 100px;
+  top: 60px;
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
   height: 350px;
   background: linear-gradient(
     rgba(220, 97, 222, 0.3),
@@ -55,10 +55,6 @@ export const AboutDecor = styled.div`
   border-radius: 50%;
   box-shadow: inset 0 0 50px var(--accent-color);
   filter: drop-shadow(1px 1px 500px var(--accent-color));
-
-  @media screen and (min-width: 768px) {
-    height: 400px;
-  }
 
   @media screen and (min-width: 1440px) {
     display: none;
@@ -224,10 +220,7 @@ export const AboutText = styled.p`
 
 export const MobileImage = styled.img`
   margin: 0 auto;
-
-  @media screen and (min-width: 768px) {
-    height: 500px;
-  }
+  height: 410px;
 
   @media screen and (min-width: 1440px) {
     display: none;

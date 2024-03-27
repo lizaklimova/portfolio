@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "category": "Languages",
+    "items": ["JavaScript", "TypeScript"]
+  },
+  {
+    "id": "2",
+    "category": "Front-end",
+    "items": ["HTML", "CSS", "SCSS", "CSS modules", "Styled components"]
+  },
+  {
+    "id": "3",
+    "category": "Libraries",
+    "items": ["React.js", "React Router", "Redux Toolkit", "MUI"]
+  },
+  {
+    "id": "4",
+    "category": "Backend",
+    "items": ["Node.js", "Express", "Multer", "Mongoose"]
+  },
+  {
+    "id": "5",
+    "category": "Database",
+    "items": ["MongoDB"]
+  },
+  {
+    "id": "6",
+    "category": "VCS",
+    "items": ["Git", "GitHub", "GitLab"]
+  }
+]

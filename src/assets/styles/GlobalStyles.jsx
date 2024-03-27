@@ -32,7 +32,7 @@ body {
     overflow-x: hidden;
 }
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 7px;
 } 
 
@@ -61,6 +61,7 @@ ol {
   padding: 0;
   list-style-type: none;
 }
+ 
 
 a {
   color: currentColor;

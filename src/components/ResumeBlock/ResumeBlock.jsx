@@ -4,7 +4,6 @@ const ResumeBlock = ({ title, children }) => {
   return (
     <ResumeItem>
       <ResumeTitle>{title}</ResumeTitle>
-
       {children}
     </ResumeItem>
   );

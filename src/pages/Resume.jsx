@@ -2,6 +2,7 @@ import { MainContainer } from "layouts";
 import ResumeBlock from "components/ResumeBlock";
 import Contacts from "components/ResumeBlock/Contacts";
 import Education from "components/ResumeBlock/Education";
+import Languages from "components/ResumeBlock/Languages";
 import {
   AsidePart,
   MainPart,
@@ -26,8 +27,8 @@ const Resume = () => {
             <ResumeBlock title="education">
               <Education />
             </ResumeBlock>
-            <ResumeBlock title="contacts">
-              <Contacts />
+            <ResumeBlock title="languages">
+              <Languages />
             </ResumeBlock>
           </AsidePart>
 
