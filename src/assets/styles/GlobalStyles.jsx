@@ -6,7 +6,8 @@ const GlobalStyles = createGlobalStyle`
     /* --text-color: #271F19; */
     --text-color: #ffffff;
     /* --background-color: #eae7e7; */
-    --background-color: #000000;
+    --grey-color: #A6A6A6;
+    --background-color: #000;
     --backdrop-color: rgba(0, 0, 0, 0.5);
     --eased-transition: 150ms ease-in-out;
     --cubic-transition: 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);

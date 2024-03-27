@@ -15,7 +15,7 @@ export const MainPageSection = styled.section`
   min-width: 100vw;
   height: calc(100vh - 70px);
   padding-top: ${({ $variant }) => ($variant === "main" ? "0" : "30px")};
-  padding-bottom: ${({ $variant }) => ($variant === "main" ? "50px" : "30px")};
+  padding-bottom: 50px;
   background: ${({ $variant }) =>
     $variant === "main"
       ? `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
@@ -232,4 +232,37 @@ export const MobileImage = styled.img`
   @media screen and (min-width: 1440px) {
     display: none;
   }
+`;
+
+export const ResumeSection = styled.section`
+  padding: 30px 0;
+`;
+
+export const Name = styled.h2`
+  font-size: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 2.5px;
+  line-height: 1.2;
+`;
+
+export const Specialty = styled.h3`
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2.15px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+`;
+
+export const ResumeWrap = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const AsidePart = styled.div`
+  width: 40%;
+`;
+
+export const MainPart = styled.div`
+  width: 70%;
 `;

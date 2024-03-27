@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "text": "380-67-377-0668",
+    "link": "tel:380-67-377-0668"
+  },
+  {
+    "id": "2",
+    "text": "elizabeth.klymova.dev@gmail.com",
+    "link": "mailto:elizabeth.klymova.dev@gmail.com"
+  },
+  {
+    "id": "3",
+    "text": "Telegram",
+    "link": "https://t.me/lizaklimovaaa"
+  },
+  {
+    "id": "4",
+    "text": "LinkedIn",
+    "link": "https://www.linkedin.com/in/elizabeth-klymova-frontend-dev/"
+  },
+  {
+    "id": "5",
+    "text": "GitHub",
+    "link": "https://github.com/lizaklimova"
+  }
+]
