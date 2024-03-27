@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/283.462c86cf.chunk.js","mappings":"qJAEA,MAIA,EAJiBA,KACRC,EAAAA,EAAAA,KAAA,WAAAC,SAAS,Y","sources":["pages/Projects.jsx"],"sourcesContent":["import React from \"react\";\n\nconst Projects = () => {\n  return <section>Projects</section>;\n};\n\nexport default Projects;\n"],"names":["Projects","_jsx","children"],"sourceRoot":""}
