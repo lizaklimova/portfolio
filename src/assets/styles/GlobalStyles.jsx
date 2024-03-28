@@ -24,7 +24,6 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    line-height: 1.29;
     letter-spacing: -0.02em;
     margin: 0;
     color: var(--text-color);

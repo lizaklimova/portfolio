@@ -3,6 +3,7 @@ import ResumeBlock from "components/ResumeBlock";
 import Contacts from "components/ResumeBlock/Contacts";
 import Education from "components/ResumeBlock/Education";
 import Languages from "components/ResumeBlock/Languages";
+import Skills from "components/ResumeBlock/Skills";
 import {
   AsidePart,
   MainPart,
@@ -33,8 +34,8 @@ const Resume = () => {
           </AsidePart>
 
           <MainPart>
-            <ResumeBlock title="contacts">
-              <Contacts />
+            <ResumeBlock title="skills">
+              <Skills />
             </ResumeBlock>
             <ResumeBlock title="contacts">
               <Contacts />

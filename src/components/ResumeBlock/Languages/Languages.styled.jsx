@@ -5,14 +5,18 @@ export const LanguagesList = styled.ul`
   flex-direction: column;
   gap: 5px;
   color: #fff;
+  padding-left: 15px;
 `;
 
 export const LanguageItem = styled.li`
-  display: flex;
-  align-items: center;
-  gap: 3px;
   list-style-type: disc;
   color: var(--accent-color);
+`;
+
+export const LisItemBlock = styled.div`
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
 `;
 
 export const Title = styled.p`
