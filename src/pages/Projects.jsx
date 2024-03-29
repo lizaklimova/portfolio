@@ -1,7 +1,7 @@
-import React from "react";
+// import projectsData from "data/projects.json";
 
 const Projects = () => {
-  return <section>Projects</section>;
+  return <ul></ul>;
 };
 
 export default Projects;
