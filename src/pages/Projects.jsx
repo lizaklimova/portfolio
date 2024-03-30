@@ -1,7 +1,13 @@
-// import projectsData from "data/projects.json";
+import projectsData from "data/projects.json";
 
-const Projects = () => {
-  return <ul></ul>;
-};
+function Projects() {
+  return (
+    <ul>
+      {projectsData.map((project) => (
+        <li></li>
+      ))}
+    </ul>
+  );
+}
 
 export default Projects;
