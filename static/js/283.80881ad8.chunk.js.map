@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/283.80881ad8.chunk.js","mappings":"+IAEA,MAIA,EAJiBA,KACRC,EAAAA,EAAAA,KAAA,Q","sources":["pages/Projects.jsx"],"sourcesContent":["// import projectsData from \"data/projects.json\";\n\nconst Projects = () => {\n  return <ul></ul>;\n};\n\nexport default Projects;\n"],"names":["Projects","_jsx"],"sourceRoot":""}
