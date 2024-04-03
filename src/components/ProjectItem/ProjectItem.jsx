@@ -40,7 +40,21 @@ const ProjectItem = ({
   //     "JWT"
   //   ]
   // },
-  return <div></div>;
+  return (
+    <div>
+      {/* <img src={} alt='project preview'/> */}
+      <div>
+        <a href={pageLink}>{projectName}</a>
+        <div>
+          {links.map((link, index) => (
+            <a key={index} href={link.link}>
+              {link.text}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default ProjectItem;
