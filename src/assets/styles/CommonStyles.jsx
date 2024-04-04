@@ -10,6 +10,7 @@ export const slideInFromLeft = keyframes`
     opacity: 0;
     transform: translateX(-100%);
   }
+  
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -21,6 +22,7 @@ export const slideInFromRight = keyframes`
     opacity: 0;
     transform: translateX(100%);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -32,6 +34,7 @@ export const slideInFromBottom = keyframes`
     opacity: 0;
     transform: translateY(300%);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);

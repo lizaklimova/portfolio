@@ -232,14 +232,14 @@ export const ResumeSection = styled.section`
 `;
 
 export const Name = styled.h2`
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 10px;
   letter-spacing: 2.5px;
   line-height: 1.2;
 `;
 
 export const Specialty = styled.h3`
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 2.15px;
   line-height: 1.4;
@@ -249,13 +249,26 @@ export const Specialty = styled.h3`
 export const ResumeWrap = styled.div`
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `;
 
 export const AsidePart = styled.div`
-  width: 40%;
+  width: 100%;
+
+  @media screen and (min-width: 1440px) {
+    width: 40%;
+  }
 `;
 
 export const MainPart = styled.div`
-  width: 70%;
+  width: 100%;
+
+  @media screen and (min-width: 1440px) {
+    width: 70%;
+  }
 `;

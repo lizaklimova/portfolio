@@ -37,12 +37,6 @@ const Resume = () => {
             <ResumeBlock title="skills">
               <Skills />
             </ResumeBlock>
-            <ResumeBlock title="contacts">
-              <Contacts />
-            </ResumeBlock>
-            <ResumeBlock title="contacts">
-              <Contacts />
-            </ResumeBlock>
           </MainPart>
         </ResumeWrap>
       </MainContainer>
