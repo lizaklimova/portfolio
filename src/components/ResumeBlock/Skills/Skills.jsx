@@ -13,7 +13,7 @@ const Skills = () => {
       {skillsData.map(({ id, category, items }) => (
         <SkillItem key={id}>
           <SkillBlock>
-            <SkillCategory>{category}:&nbsp; </SkillCategory>
+            <SkillCategory>{category}:&nbsp;&nbsp;&nbsp; </SkillCategory>
             <ItemsList>
               {items.map((item, index) => (
                 <li key={index}>

@@ -188,6 +188,7 @@ export const AboutTextWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 10px;
 
   @media screen and (min-width: 1440px) {
     align-items: flex-end;

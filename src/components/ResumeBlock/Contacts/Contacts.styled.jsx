@@ -11,7 +11,7 @@ export const ContactItem = styled.li`
   color: var(--accent-color);
 
   a {
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
   }
 `;

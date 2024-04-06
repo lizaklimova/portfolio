@@ -6,7 +6,7 @@ export const ResumeItem = styled.div`
 
 export const ResumeTitle = styled.h2`
   position: relative;
-  font-size: 17px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 2px;
@@ -17,12 +17,25 @@ export const ResumeTitle = styled.h2`
   &::before {
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 40%;
     content: "";
     display: block;
     width: calc(100% - 130px);
     height: 1px;
     border-radius: 30px;
     background-color: var(--grey-color);
+
+    @media screen and (min-width: 768px) {
+      left: 20%;
+    }
+
+    @media screen and (min-width: 1440px) {
+      left: 30%;
+      width: calc(100% - 190px);
+    }
   }
+
+  ${({ $variant }) =>
+    $variant === "skills" &&
+    "&::before {left: 80px; width: calc(100% - 70px);}"}
 `;

@@ -87,6 +87,12 @@ img {
   height: auto;
   border: none;
 }
+
+::selection {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  opacity: 0.7;
+}
 `;
 
 export default GlobalStyles;

@@ -20,11 +20,11 @@ export const LisItemBlock = styled.div`
 `;
 
 export const Title = styled.p`
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
 `;
 
 export const Level = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
 `;

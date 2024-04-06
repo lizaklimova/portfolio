@@ -3,7 +3,7 @@ import { ResumeItem, ResumeTitle } from "./ResumeBlock.styled";
 const ResumeBlock = ({ title, children }) => {
   return (
     <ResumeItem>
-      <ResumeTitle>{title}</ResumeTitle>
+      <ResumeTitle $variant={title}>{title}</ResumeTitle>
       {children}
     </ResumeItem>
   );
